@@ -4,6 +4,7 @@ email: scpleijt@avans.nl
 description: Thema voor de verdieping van Avans inclusief blogpagina.
 
 baseurl: "/creative-technology-2017" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+root: "/creative-technology-2017" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "http://stijntjeleijten.github.io" # the base hostname & protocol for your site
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
