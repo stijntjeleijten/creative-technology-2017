@@ -11,9 +11,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li>
-                  <a class="page-scroll" href="/funds">Help the project</a>
-              </li>
+                <li>
+                    <a class="page-scroll" href="{{ '/funds' | prepend: site.baseurl }}">Help the project</a>
+                </li>
                 <li>
                     <a class="page-scroll" href="#download">Download</a>
                 </li>
@@ -30,7 +30,7 @@
                     <a class="page-scroll" href="#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="/blog/">Blog</a>
+                    <a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
                 </li>
             </ul>
         </div>

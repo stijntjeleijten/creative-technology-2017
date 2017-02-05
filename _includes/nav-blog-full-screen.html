@@ -7,16 +7,15 @@
     <div>
       <div>
         <ul>
-          <li><a href="/">Blog</a></li>
           <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="/blog/">Blog</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
+            <a href="{{ '/' | prepend: site.baseurl }}">Home</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
           {% for social in site.social %}
             {% if social.url %}
                 <li><a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}>
