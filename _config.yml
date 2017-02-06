@@ -6,7 +6,8 @@ description: Thema voor de verdieping van Avans inclusief blogpagina.
 baseurl: "/creative-technology-2017" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 root: "/creative-technology-2017" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "http://stijntjeleijten.github.io/" # the base hostname & protocol for your site
-
+repository: "creative-technology-2017/stijntjeleijten.github.io"
+github: [metadata]
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
 # data-ad-slot: 2973388149
 # data-ad-client: ca-pub-9204963049240271
